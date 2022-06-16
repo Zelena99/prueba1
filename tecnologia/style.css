@@ -67,7 +67,7 @@ a{
 }
 
 
-@keyframes lollipop{
+@keyframes lollipop
     0%{
         transform: rotate(0);
     }
