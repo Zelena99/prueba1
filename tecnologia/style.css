@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+.menu{
+    text-decoration: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 15px;
+    color:silver;
+    font-size: 20px;
+}
+
+a:hover{
+    color:black
+}
+
+nav{
+    background-image:linear-gradient(180deg, #b98bff 0, #8d6fff 25%, #5353f2 50%, #003adc 75%, #0028c8 100%);
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.titulo{
+    font-size: 60px;
+    color: silver;
+    font-weight: bolder;
+}
+
+.mrg{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.sub{
+    font-family: Georgia;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+.notextmovile{
+    display: none;
+}
+    
+}
+
+
+.lolli{
+    display: flex;
+    justify-content: center;
+    animation-name: lollipop;
+    animation-duration: 5s;
+}
+
+
+@keyframes lollipop{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
